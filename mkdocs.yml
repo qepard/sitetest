@@ -1,0 +1,70 @@
+# Project information
+site_name: Руководство по HTML и CSS
+site_description: Учебник по разработке сайтов на языках разметки HTML и CSS
+site_author: qepard руководство
+site_url: https://qepard.github.io/html-css-manual
+docs_dir: book_src
+site_dir: docs
+
+# Copyright
+copyright: Copyright &copy; 2023 qepard
+
+# Configuration
+theme:
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.top
+    - navigation.follow
+    - toc.follow
+  name: material
+  language: ru
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    logo: fontawesome/solid/code
+
+# Extras
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/qepard/html-css-manual
+      name: GitHub
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - meta
+  - attr_list
+  - toc:
+      permalink: false
+
+# Navigation
+nav:
+    - 'Введение': index.md
+    - HTML:
+      - 'Знакомство с HTML': htmlstart.md
+    - CSS:
+      - 'Знакомство с CSS': cstart.md
+
+plugins:
+  - search:
+      lang:
+        - en
+        - ru
