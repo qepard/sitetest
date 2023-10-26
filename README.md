@@ -1,2 +1,2 @@
-# html_project
-My HTML tutorial project for school.
+# HTML and CSS manual
+My HTML&CSS tutorial project for school.
