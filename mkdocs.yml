@@ -1,7 +1,7 @@
 # Project information
 site_name: Руководство по HTML и CSS
 site_description: Учебник по разработке сайтов на языках разметки HTML и CSS
-site_author: qepard руководство
+site_author: qepard
 site_url: https://qepard.github.io/html-css-manual
 docs_dir: book_src
 site_dir: docs
@@ -12,10 +12,12 @@ copyright: Copyright &copy; 2023 qepard
 # Configuration
 theme:
   features:
+    - header.autohide
     - navigation.instant
+    - navigation.instant.prefetch
     - navigation.sections
     - navigation.top
-    - navigation.follow
+    - content.code.copy
     - toc.follow
   name: material
   language: ru
@@ -44,6 +46,13 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/qepard/html-css-manual
       name: GitHub
+  # alternate:
+  #   - name: English
+  #     link: /en/index.md
+  #     lang: en
+  #   - name: Russian
+  #     link: /
+  #     lang: ru
 
 # Extensions
 markdown_extensions:
@@ -57,11 +66,12 @@ markdown_extensions:
 
 # Navigation
 nav:
-    - 'Введение': index.md
-    - HTML:
-      - 'Знакомство с HTML': htmlstart.md
-    - CSS:
-      - 'Знакомство с CSS': cstart.md
+  - 'Приветствие': index.md
+  - 'Введение': intro.md
+  - HTML:
+    - 'Знакомство с HTML': html/index.md
+  - CSS:
+    - 'Знакомство с CSS': css/index.md
 
 plugins:
   - search:
