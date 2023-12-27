@@ -2,7 +2,7 @@
 site_name: Руководство по HTML и CSS
 site_description: Учебник по разработке сайтов на языках разметки HTML и CSS
 site_author: qepard
-site_url: https://qepard.github.io/html-css-manual
+site_url: https://qepard.github.io/sitetest
 docs_dir: book_src
 site_dir: docs
 
@@ -52,7 +52,7 @@ theme:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/qepard/html-css-manual
+      link: https://github.com/qepard/sitetest
       name: GitHub
   # alternate:
   #   - name: English
