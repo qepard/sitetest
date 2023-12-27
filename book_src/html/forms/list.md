@@ -27,7 +27,7 @@
 </form>
 ```
 
-<figure><figcaption>Результат</figcaption><img src="/html-css-manual/assets/images/formlist.png"></figure></div></div>
+<figure><figcaption>Результат</figcaption><img src="/sitetest/assets/images/formlist.png"></figure></div></div>
 
 <div style="display:flex;" markdown>
 <div style="flex:1;margin-right:20px;width:50%;" markdown>
@@ -74,7 +74,7 @@
 </form>
 ```
 
-<figure><figcaption>Результат</figcaption><img src="/html-css-manual/assets/images/formlist2.png"></figure></div></div>
+<figure><figcaption>Результат</figcaption><img src="/sitetest/assets/images/formlist2.png"></figure></div></div>
 
 <div style="display:flex;margin-top:-20px;" markdown>
 <div style="flex:1;margin-right:20px;width:40%;" markdown>
@@ -85,4 +85,4 @@
 Также полезно будет упомянуть о том, что пользователи компьютеров под управлением операционной системы Windows могут выбрать несколько пунктов списка, нажав и удерживая клавишу *Ctrl*, а пользователи компьютеров *Мас* - с помощью клавиши *Cmd*.
 </div></div>
 
-<div style="display: flex; justify-content: space-between; padding: 20px; margin-top:30px;"><button class="custom-button" style="background-color: rgb(0, 148, 133); color: white; font-family: 'Roboto', sans-serif; border: none; cursor: pointer; padding: 10px 20px; font-size: 16px; display: flex; align-items: center;" onclick="window.location.href='/html-css-manual/html/forms/flags'"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="fill: white; width: 20px; height: 20px;"><path d="M15 18l-6-6 6-6" /></svg><span style="margin: 0 10px;">Предыдущая страница</span></button><button class="custom-button" style="background-color: rgb(0, 148, 133); color: white; font-family: 'Roboto', sans-serif; border: none; cursor: pointer; padding: 10px 20px; font-size: 16px; display: flex; align-items: center;" onclick="window.location.href='/html-css-manual/html/forms/upload'"><span style="margin: 0 10px;">Следующая страница</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="fill: white; width: 20px; height: 20px;"><path d="M9 18l6-6-6-6" /></svg></button></div>
+<div style="display: flex; justify-content: space-between; padding: 20px; margin-top:30px;"><button class="custom-button" style="background-color: rgb(0, 148, 133); color: white; font-family: 'Roboto', sans-serif; border: none; cursor: pointer; padding: 10px 20px; font-size: 16px; display: flex; align-items: center;" onclick="window.location.href='/sitetest/html/forms/flags'"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="fill: white; width: 20px; height: 20px;"><path d="M15 18l-6-6 6-6" /></svg><span style="margin: 0 10px;">Предыдущая страница</span></button><button class="custom-button" style="background-color: rgb(0, 148, 133); color: white; font-family: 'Roboto', sans-serif; border: none; cursor: pointer; padding: 10px 20px; font-size: 16px; display: flex; align-items: center;" onclick="window.location.href='/sitetest/html/forms/upload'"><span style="margin: 0 10px;">Следующая страница</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="fill: white; width: 20px; height: 20px;"><path d="M9 18l6-6-6-6" /></svg></button></div>

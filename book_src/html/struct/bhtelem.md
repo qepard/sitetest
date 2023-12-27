@@ -19,7 +19,7 @@
 ```
 </div>
 
-<figure><figcaption>Результат</figcaption><img src="/html-css-manual/assets/images/browserbht.png" width="228" height="160"/><figcaption style="margin-top:-5px"><sub>на картинку можно нажать,<br>чтобы увеличить её</sub></figcaption><figure></div>
+<figure><figcaption>Результат</figcaption><img src="/sitetest/assets/images/browserbht.png" width="228" height="160"/><figcaption style="margin-top:-5px"><sub>на картинку можно нажать,<br>чтобы увеличить её</sub></figcaption><figure></div>
 
 ## &lt;body&gt;
 
@@ -39,9 +39,9 @@
 
     1.  Ведь у вкладки всегда есть название, верно?    
 
-<hr><div style="text-align:center"><img src="/html-css-manual/assets/images/browserbhtHL.png"/></div>
+<hr><div style="text-align:center"><img src="/sitetest/assets/images/browserbhtHL.png"/></div>
 
 <center><span style="color:#CE6E2C;">Оранжевым</span> выделен элемент `<title>`<br><span style="color:#5151F2;">Синим</span> — `<body>`
 
 
-<div style="display: flex; justify-content: space-between; padding: 20px; margin-top:30px;"><button class="custom-button" style="background-color: rgb(0, 148, 133); color: white; font-family: 'Roboto', sans-serif; border: none; cursor: pointer; padding: 10px 20px; font-size: 16px; display: flex; align-items: center;" onclick="window.location.href='/html-css-manual/html/struct/htmlex/meaning/'"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="fill: white; width: 20px; height: 20px;"><path d="M15 18l-6-6 6-6" /></svg><span style="margin: 0 10px;">Предыдущая страница</span></button><button class="custom-button" style="background-color: rgb(0, 148, 133); color: white; font-family: 'Roboto', sans-serif; border: none; cursor: pointer; padding: 10px 20px; font-size: 16px; display: flex; align-items: center;" onclick="window.location.href='/html-css-manual/html/text/'"><span style="margin: 0 10px;">Следующая глава</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="fill: white; width: 20px; height: 20px;"><path d="M9 18l6-6-6-6" /></svg></button></div>
+<div style="display: flex; justify-content: space-between; padding: 20px; margin-top:30px;"><button class="custom-button" style="background-color: rgb(0, 148, 133); color: white; font-family: 'Roboto', sans-serif; border: none; cursor: pointer; padding: 10px 20px; font-size: 16px; display: flex; align-items: center;" onclick="window.location.href='/sitetest/html/struct/htmlex/meaning/'"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="fill: white; width: 20px; height: 20px;"><path d="M15 18l-6-6 6-6" /></svg><span style="margin: 0 10px;">Предыдущая страница</span></button><button class="custom-button" style="background-color: rgb(0, 148, 133); color: white; font-family: 'Roboto', sans-serif; border: none; cursor: pointer; padding: 10px 20px; font-size: 16px; display: flex; align-items: center;" onclick="window.location.href='/sitetest/html/text/'"><span style="margin: 0 10px;">Следующая глава</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="fill: white; width: 20px; height: 20px;"><path d="M9 18l6-6-6-6" /></svg></button></div>
