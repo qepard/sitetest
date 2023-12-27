@@ -9,7 +9,7 @@
 - HTML — HyperText Markup Language — «язык гипертекстовой разметки»
 - CSS — Cascading Style Sheets — «каскадные таблицы стилей»
 - CMS — Content Management Systems — системы управления контентом
-- Домéнное имя — адрес сайта, находящийся в адресной строке вашего браузера, например **google.com**, **www.bbc.co.uk**, **microsoft.com**.
+- Домéнное имя — адрес сайта, находящийся в адресной строке вашего браузера, например **google.com**, **www.bbc.co.uk**, **microsoft.com**
 - DNS — Domain Name System — системы домéнных имен
 
 В будущем, каждый термин будет объясняться по мере вашего обучения.
@@ -24,9 +24,8 @@
 
 ![world](assets/images/world.png)
 
-|||
-| - | - |
-| ![](assets/images/cyan.png) | Пользователь из *Барселоны* запрашивает сайт **sony.jp**, находящийся в *Токио* |
+| ![](assets/images/cyan.png) | <span>Пользователь из *Барселоны* запрашивает сайт **sony.jp**, находящийся в *Токио*</span> |
+| :-: | :- |
 | ![](assets/images/yellow.png) | Пользователь из *Нью-Йорка* запрашивает сайт **google.com**, находящийся в *Сан-Франциско* |
 | ![](assets/images/orange.png) | Пользователь из *Стокгольма* запрашивает сайт **quantas.com.au**, находящийся в *Сиднее* |
 | ![](assets/images/pink.png) | Пользователь из *Ванкувера* запрашивает сайт **airindia.in**, находящийся в *Бангалоре* |
@@ -48,3 +47,12 @@
 Во-вторых, знание **HTML** и **CSS** помогает лучше понять работу веб-сайта в целом. Это позволяет сделать осознанный выбор при конфигурировании настроек и выборе функционалов в конструкторе сайтов. Пользователи смогут лучше понять, как сочетать различные элементы и функции для создания качественного и эффективного веб-сайта.
 
 В целом, конструкторы сайтов - удобный и эффективный инструмент для создания веб-сайтов, а знание **HTML** и **CSS** дополняет возможности конструкторов и помогает пользователям создавать более уникальные и индивидуальные веб-сайты.
+
+!!! info "Навигация"
+    <h3><center style="margin-top:-10px;">Ниже находятся кнопки для удобной навигации.
+    
+    <center>Если у вас есть опыт в **HTML**, но не в **CSS**, то переходите к курсу по **CSS.**
+
+    <center style="margin-bottom:20px">Если у вас еще не было опыта в создании веб-сайтов, тогда начните с **HTML.**</h3>
+
+<div style="display: flex; justify-content: space-between; padding: 20px; margin-top:30px;"><button class="custom-button" style="background-color: rgb(0, 148, 133); color: white; font-family: 'Roboto', sans-serif; border: none; cursor: pointer; padding: 10px 20px; font-size: 16px; display: flex; align-items: center;" onclick="window.location.href='/'"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="fill: white; width: 20px; height: 20px;"><path d="M15 18l-6-6 6-6" /></svg><span style="margin: 0 10px;">Предыдущая страница</span></button><button class="custom-button" style="background-color: rgb(0, 148, 133); color: white; font-family: 'Roboto', sans-serif; border: none; cursor: pointer; padding: 10px 20px; font-size: 16px; display: flex; align-items: center;" onclick="window.location.href='/html-css-manual/html/'"><span style="margin: 0 10px;">Перейти к курсу<br>по <b>HTML</b></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="fill: white; width: 20px; height: 20px;"><path d="M9 18l6-6-6-6" /></svg></button><button class="custom-button" style="background-color: rgb(0, 148, 133); color: white; font-family: 'Roboto', sans-serif; border: none; cursor: pointer; padding: 10px 20px; font-size: 16px; display: flex; align-items: center;" onclick="window.location.href='/html-css-manual/css/'"><span style="margin: 0 10px;">Перейти к курсу<br>по <b>CSS</b></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="fill: white; width: 20px; height: 20px;"><path d="M9 18l6-6-6-6" /></svg></button></div>

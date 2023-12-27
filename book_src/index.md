@@ -1,4 +1,4 @@
-# <center>Добро пожаловать!
+# <center><b>Добро пожаловать!</b>
 
 Перед вами то, что я, qepard, называю книгой по созданию веб-сайтов с помощью языка гипертекстовой разметки **HTML** и языка декорирования **CSS**.
 
@@ -20,3 +20,5 @@
 ## Что вы получите
 
 Прочтя это пособие вы получите базовые знания о верстке(*структурировании*) сайтов или проще говоря вы узнаете как устроены веб-сайты и как их создают.
+
+<div style="overflow:auto; float:right; justify-content: space-between; padding: 20px; margin-top:30px;"><button class="custom-button" style="background-color: rgb(0, 148, 133); color: white; font-family: 'Roboto', sans-serif; border: none; cursor: pointer; padding: 10px 20px; font-size: 16px; display: flex; align-items: center;" onclick="window.location.href='intro/'"><span style="margin: 0 10px;">Следующая страница</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="fill: white; width: 20px; height: 20px;"><path d="M9 18l6-6-6-6" /></svg></button></div>

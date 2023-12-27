@@ -12,33 +12,41 @@ copyright: Copyright &copy; 2023 qepard
 # Configuration
 theme:
   features:
-    - header.autohide
     - navigation.instant
     - navigation.instant.prefetch
-    - navigation.sections
     - navigation.top
+    - navigation.indexes
+    - navigation.sections
+    # - navigation.expand
+    - header.autohide
     - content.code.copy
-    - toc.follow
+    - toc.follow  
   name: material
   language: ru
   palette:
     - media: "(prefers-color-scheme: light)"
-      scheme: default
+      scheme: default 
       primary: teal
       toggle:
-        icon: material/brightness-4
+        icon: material/brightness-7
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: teal
       toggle:
-        icon: material/brightness-7
+        icon: material/brightness-4
+        name: Switch to system preference
+    - media: "(prefers-color-scheme)"
+      primary: teal
+      toggle:
+        icon: material/brightness-auto
         name: Switch to light mode
   font:
     text: Roboto
     code: Roboto Mono
   icon:
     logo: fontawesome/solid/code
+    annotation: material/information-slab-circle-outline
 
 # Extras
 extra:
@@ -48,7 +56,7 @@ extra:
       name: GitHub
   # alternate:
   #   - name: English
-  #     link: /en/index.md
+  #     link: /en/
   #     lang: en
   #   - name: Russian
   #     link: /
@@ -57,10 +65,20 @@ extra:
 # Extensions
 markdown_extensions:
   - admonition
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
   - pymdownx.highlight
-  - pymdownx.superfences
-  - meta
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - md_in_html
   - attr_list
+  - tables
   - toc:
       permalink: false
 
@@ -68,12 +86,90 @@ markdown_extensions:
 nav:
   - 'Приветствие': index.md
   - 'Введение': intro.md
-  - HTML:
-    - 'Знакомство с HTML': html/index.md
-  - CSS:
-    - 'Знакомство с CSS': css/index.md
+  - <b>HTML</b>:
+    - html/index.md
+    - Структура:
+      - html/struct/index.md
+      - 'Структурирование в Word': html/struct/MSWord
+      - 'Структурирование в HTML': 
+          - html/struct/htmlex/index.md
+          - 'Структура веб-страниц': html/struct/htmlex/meaning/
+      - 'BODY, HEAD и TITLE': html/struct/bhtelem
+    - Текст:
+      - html/text/index.md
+      - 'Заголовки': html/text/headers/
+      - 'Полужирный/курсив': html/text/bolditalic/
+      - 'Под/над-строчные знаки': html/text/supsub
+      - 'Перевод и линии': html/text/brhr
+      - 'Ударение': html/text/strongem
+      - 'Цитаты': html/text/bqq
+      - 'Аббревиатуры': html/text/abbr
+      - 'Источники': html/text/citedfn
+      - 'Исправление': html/text/insdel
+      - 'Пример': html/text/example
+    - Списки:
+      - html/lists/index.md
+      - 'Упорядоченные/неупорядоченные': html/lists/liolul
+      - 'Определения': html/lists/dltd
+      - 'Вложения': html/lists/liaddition
+      - 'Пример': html/lists/example
+    - Ссылки:
+      - html/link/index.md
+      - 'Формат': html/link/explain
+      - 'Другие страницы': html/link/other/
+      - 'Структура': html/link/structure/
+      - 'Почта': html/link/mail/
+      - 'В новом окне': html/link/target/
+      - 'Пример': html/link/example
+    - Медиа:
+      - html/media/index.md
+      - Изображения:
+        - html/media/images/index.md
+        - 'Добавление изображений': html/media/images/add
+        - 'Высота и ширина': html/media/images/widthheight
+        - 'Размещение': html/media/images/placing
+        - 'Подписи': html/media/images/figure
+        - 'Пример': html/media/images/example
+      - Видео:
+        - html/media/video/index.md
+      - Аудио:
+        - html/media/audio/index.md
+    - Таблицы:
+      - html/tables/index.md
+      - 'Структура': html/tables/base
+      - 'Заголовки': html/tables/headers
+      - 'Объединение': html/tables/union
+      - 'Длинные таблицы': html/tables/long
+      - 'Пример': html/tables/example
+    - Формы:
+      - html/forms/index.md
+      - 'Почему формы': html/forms/why
+      - 'Структура': html/forms/struct
+      - Ввод:
+        - 'Текста': html/forms/input
+        - 'Пароля': html/forms/pass
+      - 'Область': html/forms/text
+      - 'Переключатели': html/forms/switch
+      - 'Флажки': html/forms/flags
+      - 'Список': html/forms/list
+      - 'Загрузка файлов': html/forms/upload
+      - 'Подтверждение': html/forms/confirm
+      - 'Графическая кнопка': html/forms/grafic
+      - 'Скрытые элементы': html/forms/hidden
+      - 'Метки': html/forms/tags
+      - 'Группировка': html/forms/group
+      - 'Ввод даты': html/forms/date
+      - 'Валидация': html/forms/validation
+      - 'Ввод URL и почты': html/forms/urlmail
+      - 'Поле<br>поискового<br>запроса': html/forms/search
+      - 'Пример': html/forms/example
+    - Дополнительно:
+      - html/extra/index.md
+          
+
 
 plugins:
+  - glightbox
   - search:
       lang:
         - en
